@@ -1,0 +1,101 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
+.default-background {
+    background: #1E1E1E;
+}
+
+.single-card {
+    background: #282828;
+    width: 60%;
+    height: 85%;
+    border-radius: 5%;
+
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-top-title {
+    text-align: center;
+    top: 3%;
+    color: white;
+    /* TODO */
+}
+
+.hr-bottom {
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin-bottom: 1em;
+}
+
+.group-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-input {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 1%;
+    font-size: 3em;
+    background-color: #323232;
+    color: white;
+
+    flex-basis: 60%;
+    flex: 1;
+    margin: 1px;
+}
+
+.card-clickable-button {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 1%;
+    font-size: 3em;
+    background-color: #4E6EF2;
+    color: white;
+
+    flex-basis: 60%;
+    flex: 1;
+    margin: 1px;
+}
+
+.button-hover1 {
+    background: linear-gradient(#4E6EF2 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: .3s, background-position 0s;
+}
+
+.button-hover1:hover {
+    --p: 100%;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.light-table-header {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.light-table-l1 {
+    background-color: #E1E1E1;
+    color: black;
+    border: 1px solid black;
+}
+
+.light-table-l2 {
+    background-color: #C3C3C3;
+    color: black;
+    border: 1px solid black;
+}

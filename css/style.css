@@ -1,0 +1,52 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
+.main-body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.top-tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.top-tab {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 600px;
+    text-align: center;
+}
+
+.h1-in-card {
+    color: #333;
+}
+
+.p-in-card {
+    color: #666;
+}
+
+.center {
+    text-align: center;
+}
+
+.error-p-in-card {
+    color: red;
+    text-align: left;
+}
